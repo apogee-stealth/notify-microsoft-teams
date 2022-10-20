@@ -30,7 +30,7 @@ const statuses = [
 		color: '#2cbe4e',
 		activityTitle: "Success!",
 		activitySubtitle: head_commit.timestamp,
-		activityImage: "https://raw.githubusercontent.com/Skitionek/notify-microsoft-teams/master/icons/success.png"
+		activityImage: "https://github.com/apogee-stealth/notify-microsoft-teams/raw/master/icons/success.png"
 
 	},
 	{
@@ -39,7 +39,7 @@ const statuses = [
 		color: '#cb2431',
 		activityTitle: "Failure",
 		activitySubtitle: head_commit.timestamp,
-		activityImage: "https://github.com/apogee-stealth/notify-microsoft-teams/blob/2dd7c854f3262117b0388307df117c28e99da6b5/icons/failure.png"
+		activityImage: "https://github.com/apogee-stealth/notify-microsoft-teams/raw/master/icons/failure.png"
 
 	},
 	{
@@ -48,7 +48,7 @@ const statuses = [
 		color: '#ffc107',
 		activityTitle: "Cancelled",
 		activitySubtitle: head_commit.timestamp,
-		activityImage: "https://raw.githubusercontent.com/Skitionek/notify-microsoft-teams/master/icons/cancelled.png"
+		activityImage: "https://github.com/apogee-stealth/notify-microsoft-teams/raw/master/icons/cancelled.png"
 	},
 	{
 		id: 'skipped',
@@ -56,7 +56,7 @@ const statuses = [
 		color: '#1a6aff',
 		activityTitle: "Skipped",
 		activitySubtitle: head_commit.timestamp,
-		activityImage: "https://raw.githubusercontent.com/Skitionek/notify-microsoft-teams/master/icons/skipped.png"
+		activityImage: "https://github.com/apogee-stealth/notify-microsoft-teams/raw/master/icons/skipped.png"
 	},
 	{
 		id: 'unknown',
@@ -64,7 +64,7 @@ const statuses = [
 		color: '#999',
 		activityTitle: 'No job context has been provided',
 		activitySubtitle: head_commit.timestamp,
-		activityImage: "https://raw.githubusercontent.com/Skitionek/notify-microsoft-teams/master/icons/unknown.png"
+		activityImage: "https://github.com/apogee-stealth/notify-microsoft-teams/raw/master/icons/unknown.png"
 	}
 ];
 

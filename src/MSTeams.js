@@ -39,7 +39,7 @@ const statuses = [
 		color: '#cb2431',
 		activityTitle: "Failure",
 		activitySubtitle: head_commit.timestamp,
-		activityImage: "https://raw.githubusercontent.com/Skitionek/notify-microsoft-teams/master/icons/failure.png"
+		activityImage: "https://github.com/apogee-stealth/notify-microsoft-teams/blob/2dd7c854f3262117b0388307df117c28e99da6b5/icons/failure.png"
 
 	},
 	{
